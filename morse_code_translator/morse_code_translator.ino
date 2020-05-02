@@ -435,7 +435,7 @@ void zero() {
 }
 
 
-/* This translates each character into Morse equivalent. Probably changing this to a switch in the future. */
+/* This translates each character into Morse equivalent. I'm probably changing this to a switch in the future. */
 void morse() {
 	if (current_character == 'A' || current_character == 'a') {
 		A();

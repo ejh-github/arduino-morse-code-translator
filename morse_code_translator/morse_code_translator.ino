@@ -583,7 +583,7 @@ void morse() {
 	}
 	else if(current_character == ' ') {
 		delay(time_unit * 7);
-		Serial.print(" ");
+		Serial.print("/ ");
 	}
 }
 

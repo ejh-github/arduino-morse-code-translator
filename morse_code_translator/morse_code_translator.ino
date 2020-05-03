@@ -29,7 +29,7 @@ void dah() {
 
 /* This translates each character into it's Morse equivalent. */
 void morse() {
-	switch(current_character) {
+	switch (current_character) {
 		case 'A':
 			dit();
 			delay(time_unit);

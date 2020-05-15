@@ -1,6 +1,6 @@
-String message = "";	/* This is the message to be translated to Morse code. */
-char current_character;	/* This is the current (during message iteration) character being translated. */
-int time_unit = 50;	/* This is the time unit, 50ms, and probably needs to be tweaked. */
+String message = "";	/* Message to be translated to Morse code. */
+char current_character;	/* Current character being translated. */
+int time_unit = 50;	/* Time unit, 50ms. Probably needs to be tweaked. */
 
 
 /* Morse dot or 'dit' */
@@ -27,7 +27,7 @@ void dah() {
 }
 
 
-/* This translates each character into it's Morse equivalent. */
+/* Translates each character into it's Morse equivalent. */
 void morse() {
 	switch (current_character) {
 		case 'A':
@@ -377,7 +377,7 @@ void morse() {
 }
 
 
-/* This iterates through the provided message character by character and sends that character to Morse() to be translated. */
+/* Iterates through the provided message character by character, and sends that character to Morse() to be translated. */
 void translate() {
   message.toUpperCase(); /* Morse is non case sensitive. */
 	for (int i = 0; i < message.length(); i++) {

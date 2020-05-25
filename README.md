@@ -3,4 +3,4 @@ This sketch translates a string of text into Morse code audiovisually, through t
 
 Upload it and open the Serial Monitor, then enter whatever you want to translate to Morse code.
 
-In action: lbry://Arduino-Morse-Code-Translator-SYbhMfuzk_s#cf1603923b1a17074dd4007d25601c727860a148
+In action: https://lbry.tv/Arduino-Morse-Code-Translator-SYbhMfuzk_s:c
